@@ -19,4 +19,4 @@ for price in itemPrice:
     valueItem = Decimal(sub(r'[^\d.]', '', value))
     sum = sum + valueItem
 
-print('Wish List Total: ' + ('${}'.format(sum)))
+print('Wish List Total: ' + '${}'.format(sum))
