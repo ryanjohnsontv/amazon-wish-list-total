@@ -21,4 +21,4 @@ for price in itemPrice:
     #print (valueItem)
     sum = sum + valueItem
 
-print(sum)
+print('${}'.format(sum))
